@@ -4,6 +4,8 @@ const passwordMaxLength = 64;
 const passwordElement = document.querySelector("#password");
 const buttonCopyElement = document.querySelector("#copy");
 const buttonCopy2Element = document.querySelector("#copy-2");
+const buttonRenewElement = document.querySelector("#renew");
+
 const passwordLengthElement = document.querySelector("#password-length");
 
 const upperCaseCheckElement = document.querySelector("#uppercase-check");
@@ -96,6 +98,7 @@ const copy = () => {
 
 buttonCopyElement.addEventListener("click", copy);
 buttonCopy2Element.addEventListener("click", copy);
+buttonRenewElement.addEventListener("click", generatePassword);
 
 passwordLengthElement.addEventListener("input", () => {
     passwordLength = passwordLengthElement.value;
