@@ -243,3 +243,29 @@ main {
 .submit button:hover {
     background-color: #9B51E0;
 }
+
+@media only screen and (max-width: 480px) {
+    .password {
+        padding: 1rem;
+    }
+
+    .password .text input {
+        font-size: 1rem;
+    }
+
+    .password .text input.font-sm {
+        font-size: 1.2rem;
+    }
+    
+    .password .text input.font-xs {
+        font-size: 1rem;
+    }
+    
+    .password .text input.font-xxs {
+        font-size: 1rem;
+    }
+
+    .password .actions img {
+        width: 24px;
+    }
+}
