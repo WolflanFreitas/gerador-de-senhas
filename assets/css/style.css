@@ -156,7 +156,7 @@ main {
     width: 25px;
     height: 25px;
     border-radius: 25px;
-    background: #9B51E0;
+    background: #15518c;
     cursor: pointer;
 }
 
@@ -165,7 +165,7 @@ main {
     width: 25px;
     height: 25px;
     border-radius: 25px;
-    background: #9B51E0;
+    background: #15518c;
     cursor: pointer;
 }
 
@@ -204,7 +204,7 @@ main {
 }
 
 .checkbox-container input:checked ~ .checkmark {
-    background-color: #9B51E0;
+    background-color: #15518c;
 }
 
 .checkbox-container .checkmark::after {
@@ -230,7 +230,7 @@ main {
 }
 
 .submit button {
-    background-color: #BB6BD9;
+    background-color: #15518ccc;
     font-size: 1.375rem;
     color: #FFFFFF;
     border: none;
@@ -241,7 +241,7 @@ main {
 }
 
 .submit button:hover {
-    background-color: #9B51E0;
+    background-color: #15518c;
 }
 
 @media only screen and (max-width: 480px) {
